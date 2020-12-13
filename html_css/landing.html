@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body,html{
+            margin: 0;
+            height: 100%;
+        }
+        .contain{
+            padding: 2% 20% 2% 20%;
+            background-color: rgb(236, 236, 236);
+            height: 100%;
+        }
+        #home{
+            border-radius: 3px;
+            padding: 5px;
+            color: rgb(242, 243, 243);
+            background-color: rgb(48, 93, 241);
+            font-family: "Andika New Basic";
+        }
+        .hm-head{
+            color:rgb(48, 93, 241);
+            font-family: "Andika New Basic";
+            padding: 5px;
+
+        }
+        .hm-con{
+            width: 50%;
+            text-align: right;
+        }
+        .hd-name{
+            font-family: Verdana;
+            color: rgba(124, 123, 123, 0.836);
+            font-size: large;
+        }
+        .cnt-bd{
+            text-align: center;
+            font-family: "Andika New Basic";
+            background-color: rgb(224, 223, 223);
+        }
+        .sign{
+            background-color: rgb(37, 129, 37);
+            color: rgb(242, 243, 243);
+            font-family: "Andika New Basic";
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .launch{
+            background-color: rgb(48, 93, 241);
+            color: rgb(242, 243, 243);
+            font-family: "Andika New Basic";
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 0% 20% 0% 20%;
+            background-color: rgb(236, 236, 236);
+            font-family: "Andika New Basic";
+        }
+        .sub-con{
+            font-family: "Andika New Basic";
+            padding-top: 30px;
+            width: 100%;
+        }
+        h3{
+            margin: 0;
+        }
+        .sub-con-lf{
+            width: 45%;
+            float: left;
+            padding: 0px 5px 0px 3px;
+        }
+        .sub-con-rg{
+            width: 45%;
+            float: right;
+            padding: 0px 3px 0px 5px;
+        }
+        @media (min-width: 600px){
+            .sub-con-lf{
+                width: 45%;
+                float: left;
+            }
+            .sub-con-rg{
+                width: 45%;
+                float: right;
+            }
+        }
+        @media (max-width: 599px){
+            .sub-con-lf{
+                width: 100%;
+            }
+            .sub-con-rg{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <table style="width: 100%; padding-bottom: 35px;">
+            <tr>
+                <td style="width: 50%;">
+                    <span class="hd-name">Starter template lacodeid</span>
+                </td>
+                <td class="hm-con">
+                    <span id="home">Home</span>
+                    <span class="hm-head">About</span>
+                    <span class="hm-head">Contact</span>
+                </td>
+            </tr>
+        </table>
+        <div class="cnt-bd">
+            <br>
+            <h1 style="margin: 5px;">Jumbotron heading</h1>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim, itaque impedit architecto unde nisi, et ipsam nostrum dolores officia fugit fugiat necessitatibus! Eos ab dicta tempora at rem doloribus.
+            </div>
+            <div style="padding: 10px;">
+                <button class="sign">Sign up today</button>
+            </div>
+            <div style="padding-bottom: 40px;">
+                <button class="launch">Launch demo model</button>
+            </div>
+        </div>
+        <div class="sub-con">
+            <div class="sub-con-lf">
+                <div style="padding-bottom: 5px;">
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+                <div style="padding-bottom: 5px;">
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+                <div>
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+            </div>
+            <div class="sub-con-rg">
+                <div style="padding-bottom: 5px;">
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+                <div style="padding-bottom: 5px;">
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+                <div>
+                    <h3>Subheading</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid enim, itaque impedit architecto unde nisi. </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Starter © <span style="color: rgb(48, 93, 241);">lacodeid.com</span> 2017</p>
+    </div>
+</body>
+</html>
